@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+header {
+    background: #4a63e7;
+    color: white;
+    padding: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+.planner {
+    padding: 30px;
+}
+
+.planner input, .planner button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#planList {
+    list-style: none;
+    padding: 0;
+}
+
+#planList li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.todo {
+    padding: 30px;
+}
+
+.todo input, .todo button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.timer {
+    padding: 40px;
+}
+
+#time {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.timer button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+.notes {
+    padding: 30px;
+}
+
+#noteArea {
+    width: 90%;
+    height: 300px;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#saveStatus {
+    color: green;
+    margin-top: 10px;
+}
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark header {
+    background: #1e1e1e;
+}
+
+.dark .card {
+    background: #2a2a2a;
+    color: white;
+}
+
+#themeBtn {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
